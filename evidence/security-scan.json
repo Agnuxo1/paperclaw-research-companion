@@ -1,0 +1,6 @@
+{
+  "filesScanned": 29,
+  "secretPatternFiles": [],
+  "date": "2026-09-30",
+  "limits": "Pattern-based check, not proof of absence of every possible secret; data, cache, sessions and credentials excluded from publication"
+}

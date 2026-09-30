@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-30T14:04:51.533Z",
+  "directory": "D:\\PROJECTS\\Amazon-Alexa-PaperClaw-2026\\.cache\\clean-install",
+  "node": "v22.18.0",
+  "steps": [
+    "Fresh source copy without node_modules or data",
+    "npm ci --ignore-scripts",
+    "npm test",
+    "npm start equivalent: node server.mjs",
+    "GET browser app",
+    "New private session",
+    "Live Europe PMC search"
+  ],
+  "passed": true,
+  "sourceCount": 6
+}

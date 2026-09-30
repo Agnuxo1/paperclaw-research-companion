@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-30T13:43:32.182Z",
+  "runtime": "v22.18.0",
+  "method": "Sequential cold provider search followed by in-memory cache hit; first two source links checked with live GET. One run per topic, no statistical inference or user study.",
+  "rows": [
+    {
+      "query": "microplastics removal drinking water",
+      "provider": "europepmc",
+      "coldMs": 368,
+      "cachedMs": 0.01,
+      "count": 6,
+      "links": [
+        {
+          "url": "https://europepmc.org/article/PPR/PPR1297162",
+          "status": 403,
+          "finalUrl": "https://europepmc.org/article/PPR/PPR1297162"
+        },
+        {
+          "url": "https://europepmc.org/article/MED/42653872",
+          "status": 403,
+          "finalUrl": "https://europepmc.org/article/MED/42653872"
+        }
+      ]
+    },
+    {
+      "query": "urban green space mental health",
+      "provider": "europepmc",
+      "coldMs": 224,
+      "cachedMs": 0.01,
+      "count": 6,
+      "links": [
+        {
+          "url": "https://europepmc.org/article/PPR/PPR1324452",
+          "status": 403,
+          "finalUrl": "https://europepmc.org/article/PPR/PPR1324452"
+        },
+        {
+          "url": "https://europepmc.org/article/PPR/PPR1308645",
+          "status": 403,
+          "finalUrl": "https://europepmc.org/article/PPR/PPR1308645"
+        }
+      ]
+    },
+    {
+      "query": "lithium battery recycling",
+      "provider": "crossref",
+      "coldMs": 687,
+      "cachedMs": 0.01,
+      "count": 6,
+      "links": [
+        {
+          "url": "https://doi.org/10.1149%2Fma2018-01%2F4%2F605",
+          "status": 200,
+          "finalUrl": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/",
+          "access": "Anti-bot challenge; HTTP 200 does not establish readable publication"
+        },
+        {
+          "url": "https://doi.org/10.1021%2Fcen-10138-cover",
+          "status": 200,
+          "finalUrl": "https://cen.acs.org/environment/recycling/Lithium-ion-battery-recycling-goes/101/i38"
+        }
+      ]
+    },
+    {
+      "query": "routing",
+      "provider": "p2pclaw",
+      "coldMs": 4032,
+      "cachedMs": 0.01,
+      "count": 4,
+      "links": [
+        {
+          "url": "https://www.p2pclaw.com/app/papers/paper-1776348324486",
+          "status": 200,
+          "finalUrl": "https://www.p2pclaw.com/app/papers/paper-1776348324486"
+        },
+        {
+          "url": "https://www.p2pclaw.com/app/papers/paper-1776346577184",
+          "status": 200,
+          "finalUrl": "https://www.p2pclaw.com/app/papers/paper-1776346577184"
+        }
+      ]
+    },
+    {
+      "query": "zzzxxyyunknownpaperclawzz",
+      "provider": "europepmc",
+      "coldMs": 171,
+      "cachedMs": 0.02,
+      "count": 0,
+      "links": []
+    }
+  ]
+}

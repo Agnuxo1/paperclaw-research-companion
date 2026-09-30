@@ -1,0 +1,10 @@
+{
+  "durationSeconds": 118.26,
+  "resolution": "1920x1080",
+  "fps": 24,
+  "audio": "English Windows SAPI synthetic narration, no human impersonation",
+  "visuals": "Original UI screenshots plus real Chrome CDP screencast frames, edited for readability",
+  "subtitles": "English SRT; paragraph starts aligned to audio segments, internal cue times approximate",
+  "path": "D:\\PROJECTS\\Amazon-Alexa-PaperClaw-2026\\evidence\\paperclaw-demo.mp4",
+  "bytes": 3843837
+}

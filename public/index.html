@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#172f2b" />
+    <title>PaperClaw — Research Companion</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#question">Skip to research question</a>
+    <header>
+      <a class="brand" href="/"
+        ><span class="mark" aria-hidden="true">P<span>↗</span></span
+        ><span>PaperClaw<small>RESEARCH COMPANION</small></span></a
+      >
+      <nav aria-label="Workspace">
+        <button id="new" class="nav active">Research desk</button
+        ><button id="collections" class="nav">
+          My collections <span id="count">0</span>
+        </button>
+      </nav>
+      <span class="private"><i></i> Private local workspace</span>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="eyebrow">A LITTLE CURIOSITY. A CLEARER PICTURE.</div>
+        <h1>Follow the evidence.<br /><em>Keep what matters.</em></h1>
+        <p>
+          Your companion for turning a research question into a collection<br
+            class="desktop"
+          />
+          of real sources you can inspect, compare and come back to.
+        </p>
+        <div class="mode">
+          Alexa+ experience simulator <span>·</span> Real research tools
+          <span>·</span> MCP 2025-11-25
+        </div>
+      </section>
+      <div class="workspace">
+        <section class="desk" aria-labelledby="desk-title">
+          <div class="section-head">
+            <h2 id="desk-title">Your research desk</h2>
+            <span id="status" role="status" aria-live="polite"
+              >Ready when you are</span
+            >
+          </div>
+          <div
+            id="conversation"
+            class="conversation"
+            role="log"
+            aria-label="Research conversation"
+          >
+            <div class="assistant-message">
+              <span class="avatar" aria-hidden="true">P</span>
+              <div>
+                <strong>Start with a question, leave with a trail.</strong>
+                <p>
+                  What are you trying to understand? I’ll find publications,
+                  show their evidence and help you keep a useful reading list.
+                </p>
+              </div>
+            </div>
+          </div>
+          <form id="ask">
+            <label for="question">Your question or next step</label>
+            <div class="composer">
+              <textarea
+                id="question"
+                rows="2"
+                maxlength="350"
+                placeholder="What do we know about microplastics removal from drinking water?"
+                required
+              ></textarea>
+              <div class="composer-actions">
+                <select id="provider" aria-label="Publication index">
+                  <option value="europepmc">Europe PMC · life sciences</option>
+                  <option value="crossref">Crossref · all disciplines</option>
+                  <option value="p2pclaw">
+                    P2PCLAW · network contributions
+                  </option>
+                </select>
+                <div>
+                  <button
+                    id="voice"
+                    type="button"
+                    class="icon-button"
+                    aria-label="Dictate a question"
+                    title="Dictate a question"
+                  >
+                    ◉</button
+                  ><button id="submit" type="submit" class="primary">
+                    Explore <span aria-hidden="true">↗</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div id="examples" class="examples">
+            <span>TRY A TOPIC</span
+            ><button data-query="microplastics removal drinking water">
+              Cleaner drinking water ↗</button
+            ><button data-query="urban green space mental health">
+              Greener cities ↗</button
+            ><button data-query="lithium battery recycling">
+              Battery recycling ↗
+            </button>
+          </div>
+          <div class="voice-note" id="voice-note">
+            Text always works. Voice depends on your browser and its speech
+            service.
+          </div>
+          <div id="result" class="results" hidden></div>
+        </section>
+        <aside class="rail">
+          <div class="field-note">
+            <div class="eyebrow">THE PAPERCLAW METHOD</div>
+            <h2>Less tab hopping.<br />More understanding.</h2>
+            <ol>
+              <li>
+                <span>01</span>
+                <div>
+                  <strong>Ask a useful question</strong>
+                  <p>Start with a topic or decision.</p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <strong>Inspect the source</strong>
+                  <p>Every publication has a real link.</p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <strong>Compare the evidence</strong>
+                  <p>See scope, dates and unknowns.</p>
+                </div>
+              </li>
+              <li>
+                <span>04</span>
+                <div>
+                  <strong>Build your collection</strong>
+                  <p>Save a brief. Return to it. Export.</p>
+                </div>
+              </li>
+            </ol>
+            <div class="note-bottom">
+              A citation is a starting point,<br /><em
+                >not a substitute for reading.</em
+              >
+            </div>
+          </div>
+          <div class="trust">
+            <span aria-hidden="true">↳</span>
+            <p>
+              <strong>Honest about what we know.</strong><br />Author excerpts,
+              metadata and assistant synthesis are labeled separately. No
+              invented papers. No implied consensus.
+            </p>
+          </div>
+        </aside>
+      </div>
+      <section id="saved-view" hidden>
+        <div class="section-head">
+          <h2>Your collections</h2>
+          <button id="back" class="secondary">Back to research</button>
+        </div>
+        <p class="muted">
+          Your reading trails, stored locally and visible only in this browser
+          workspace.
+        </p>
+        <div id="saved-list"></div>
+        <div id="saved-detail"></div>
+      </section>
+    </main>
+    <footer>
+      <span
+        >PaperClaw
+        <span class="muted"
+          >/ A clearer path from question to sources.</span
+        ></span
+      ><span
+        >Independent prototype. No certified Alexa or Echo connection.</span
+      >
+    </footer>
+    <div id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

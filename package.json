@@ -1,0 +1,21 @@
+{
+  "name": "paperclaw-research-companion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify:mcp": "node scripts/verify-mcp.mjs",
+    "benchmark": "node scripts/benchmark.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "express": "5.1.0",
+    "zod": "3.25.76"
+  },
+  "license": "MIT"
+}

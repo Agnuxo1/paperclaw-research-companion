@@ -1,0 +1,10 @@
+Research starts with a question. But a confident answer is only useful when you can follow its evidence.
+PaperClaw Research Companion helps an environmental researcher build a reading trail for a water treatment briefing.
+Here, we ask about microplastics removal from drinking water. This is the running product, searching real publications through Europe PMC.
+Each source shows its title, authors, date and publication type. Short abstract excerpts are labeled as author statements. The references open the actual publication records.
+Now we compare two sources. A focused filtration preprint and a broad scoping review offer different lenses. Shared words indicate topic overlap, not scientific consensus. The assistant keeps the unknowns visible.
+We select the useful sources, name a private collection and save it. Returning to the collection preserves the evidence trail. Export produces a portable brief with references and retrieval dates.
+This is a new conversational research workflow built for the hackathon, extending the PaperClaw ecosystem beyond publishing papers.
+Behind the interface, real MCP tools use protocol version twenty twenty five, eleven, twenty five, over Streamable HTTP. An official client verified the tools. Collections stay in local SQLite storage.
+This is our independent Alexa plus simulator, without a certified Echo connection. Text always works; voice is optional. No paid model or cloud service is required.
+PaperClaw. Follow the evidence. Keep what matters.

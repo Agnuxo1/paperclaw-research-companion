@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-30T14:01:02.210Z",
+  "endpoint": "http://127.0.0.1:4317/mcp",
+  "protocol": "2025-11-25",
+  "transport": "Streamable HTTP, stateless JSON response mode",
+  "client": "@modelcontextprotocol/sdk 1.31.0 Client + StreamableHTTPClientTransport",
+  "tools": [
+    "discover_sources",
+    "compare_sources",
+    "create_evidence_brief"
+  ],
+  "papers": [
+    {
+      "id": "PPR:PPR1297162",
+      "title": "Rice Husk Biochar Filtration for Microplastic Removal from Raw Water at a Drinking-Water Depot in Aceh Besar, Indonesia",
+      "url": "https://europepmc.org/article/PPR/PPR1297162"
+    },
+    {
+      "id": "MED:42653872",
+      "title": "Micro- and Nanoplastics in the Environment: Analytical Approaches, Environmental Fate, Life Cycle, and Remediation Strategies-A Scoping Review.",
+      "url": "https://europepmc.org/article/MED/42653872"
+    },
+    {
+      "id": "MED:42578043",
+      "title": "Microplastics at the Intersection of Toxicology, Child Health, and Human Rights.",
+      "url": "https://europepmc.org/article/MED/42578043"
+    },
+    {
+      "id": "MED:42588523",
+      "title": "From Aquatic Pollution to Drinking-Water Exposure: Analytical Challenges in Detecting Nanoplastics in Drinking Water-A PRISMA-Guided Review.",
+      "url": "https://europepmc.org/article/MED/42588523"
+    },
+    {
+      "id": "MED:42323465",
+      "title": "Efficiency of a microplastic removal system from synthetic wastewater using a chemical process combined with simple filtration.",
+      "url": "https://europepmc.org/article/MED/42323465"
+    },
+    {
+      "id": "MED:42508087",
+      "title": "Permeable pavement systems for microplastic mitigation: Critical insights on transport, retention, detection and removal efficiency.",
+      "url": "https://europepmc.org/article/MED/42508087"
+    }
+  ],
+  "checks": [
+    "initialize wire version",
+    "SDK client connect",
+    "listTools",
+    "discover_sources live",
+    "compare_sources",
+    "create_evidence_brief",
+    "listResources",
+    "readResource",
+    "ping",
+    "close",
+    "GET/DELETE 405",
+    "writes absent without authorization"
+  ]
+}

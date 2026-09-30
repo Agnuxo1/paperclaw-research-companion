@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-30T14:12:45.586Z",
+  "passed": true,
+  "checks": [
+    "token-configured tool exposure",
+    "live discover",
+    "explicit save",
+    "list saved collection",
+    "export referenced brief"
+  ],
+  "secretsStored": false
+}
