@@ -45,5 +45,6 @@ Open Source: evaluate only after a separate qualifying public contribution exist
 ## Links and final status
 Repository: https://github.com/Agnuxo1/paperclaw-research-companion
 Local demo: http://127.0.0.1:4317 (judges run the README)
-Video: pending recording/publication; do not submit a placeholder.
+Video: completed locally, 118.38 seconds, 1920x1080, English synthetic narration and SRT subtitles. Public YouTube publication awaits explicit account/file approval; do not submit a placeholder.
+Code release: v0.1.0, commit d57cee8b6db46fd38e493f1be880ef8a7cdf5a83.
 Devpost entry URL and submitted confirmation: pending; a prepared document is not submission.

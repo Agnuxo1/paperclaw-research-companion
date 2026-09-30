@@ -12,6 +12,9 @@ Environment: Windows, Node.js 22.18.0, pinned MCP SDK 1.31.0, September 30, 2026
 - Responsive views inspected at 390×844, 820×1180 and 1280×800 plus normal desktop. No horizontal overflow at 390 and 820. Original screenshots are in `evidence/`.
 - Voice features detect availability and preserve text fallback. Microphone speech recognition has not been tested on this device; no claim of successful voice interaction is made. Browser speech output is optional.
 
+- Authenticated MCP write client: discover, save, list and export passed with a temporary token and separate local owner; vidence/mcp-writes.json.
+- Demo video: 118.38 seconds, H.264 1920x1080 with AAC English synthetic narration; complete decode passed. Public upload remains pending. vidence/video-check.json.
+
 ## Measured search results
 
 | Topic/index | Sources | Cold search | In-memory repeat |

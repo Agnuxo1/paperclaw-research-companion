@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-30",
+  "decoderExitCode": 0,
+  "checks": [
+    "Duration: 00:01:58.38, start: 0.000000, bitrate: 259 kb/s",
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt470bg/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 179 kb/s, 23.99 fps, 24 tbr, 12288 tbn (default)",
+    "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 22050 Hz, mono, fltp, 75 kb/s (default)",
+    "Stream #0:0(und): Audio: pcm_s16le, 22050 Hz, mono, s16, 352 kb/s (default)",
+    "[Parsed_volumedetect_0 @ 000001c80ab73140] mean_volume: -20.5 dB",
+    "[Parsed_volumedetect_0 @ 000001c80ab73140] max_volume: -2.2 dB"
+  ],
+  "framesReviewedSeconds": [
+    5,
+    42,
+    68,
+    86,
+    108
+  ]
+}
