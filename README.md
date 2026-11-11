@@ -4,6 +4,10 @@
 
 Built for the Alexa+ track of Build, Ship, Shape: Amazon Developer Hackathon. The project contains a real **MCP 2025-11-25 server over Streamable HTTP**, plus its own web-based conversational simulator. It is an independent prototype with no certified connection to Alexa or Echo. No gated Amazon SDK is used.
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> PaperClaw brings publication discovery, source comparison, saved collections and Markdown export into a local research desk. Reusing an exportable reading trail can reduce repeated searching and manual preparation of evidence briefs. The <a href="#architecture-and-limits">shared research service</a> supports both the browser and MCP clients without requiring a hosted model, while keeping extractive metadata comparison distinct from scientific consensus or full-text assessment.</sub>
+<!-- impact-note:end -->
+
 ## Run locally
 
 Requirements: Node.js 22.18 or newer, npm, Internet access for live publication searches. No API keys, account registration, hosted model or paid service is required.
